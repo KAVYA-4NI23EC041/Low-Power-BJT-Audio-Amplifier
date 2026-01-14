@@ -60,7 +60,7 @@ The circuit was simulated using **LTspice** and **Proteus Design Suite**.
 ---
 
 ### Waveform Analysis
-![Simulation Results](assets)
+![Simulation Results](Low-Power-BJT-Audio-Amplifier/assets.md)
 *Figure 1: Input signal vs. Amplified Output showing >40dB gain.*
 
 ---
