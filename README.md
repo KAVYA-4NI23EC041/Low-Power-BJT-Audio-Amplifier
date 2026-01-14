@@ -60,7 +60,7 @@ The circuit was simulated using **LTspice** and **Proteus Design Suite**.
 ---
 
 ### Waveform Analysis
-![Simulation Results](assets/waveform_output.png)
+![Simulation Results](assets)
 *Figure 1: Input signal vs. Amplified Output showing >40dB gain.*
 
 ---
