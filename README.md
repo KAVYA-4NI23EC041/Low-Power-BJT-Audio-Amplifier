@@ -8,12 +8,16 @@
 ## 📌 Abstract
 This project details the design, simulation, and implementation of a low-power audio amplifier circuit utilizing Bipolar Junction Transistors (BJTs). The system is designed to operate on a single 1.5V battery, making it highly suitable for portable hearing aids and headphone drivers. The design prioritizes minimal component count, energy efficiency, and high gain (>40dB) while maintaining low distortion.
 
+---
+
 ## ⚙️ Key Features
 * **Low Voltage Operation:** Optimized for a single 1.5V AA battery supply.
 * **Multi-Stage Amplification:** Utilizes a pre-amplifier, intermediate gain stage, and output driver for maximum signal fidelity.
 * **High Gain:** Achieves a total voltage gain exceeding 40dB.
 * **Low Noise:** Integrated decoupling and bypass networks to minimize power supply noise.
 * **Cost-Effective:** Total prototype estimated cost is approximately ₹142 INR.
+
+---
 
 ## 🔧 Technical Implementation
 
@@ -26,8 +30,12 @@ The input signal from the electret microphone is conditioned and amplified by tr
 * **Gain:** The voltage gain ($A_v$) for this stage is defined by the collector and emitter resistances:
   $$A_v = -\frac{R_C}{R_E}$$
 
+---
+
 ### 2. Intermediate Gain (Stage 2)
 Transistor Q2 provides secondary amplification. DC components are blocked between stages using coupling capacitors to preserve the operating point of each transistor.
+
+---
 
 ### 3. Output Driver (Stage 3 & 4)
 This stage utilizes a phase splitter (Q3) to drive the final power transistor (Q4 - BC337).
@@ -35,6 +43,8 @@ This stage utilizes a phase splitter (Q3) to drive the final power transistor (Q
   $$Z_{out} = Z_{load}$$
 * **Filtering:** The output coupling capacitor ($C_5$) forms a high-pass filter with the load to determine the cutoff frequency:
   $$f_c = \frac{1}{2\pi R_{load}C_5}$$
+
+---
 
 ## 📊 Simulation & Results
 
@@ -47,7 +57,13 @@ The circuit was simulated using **LTspice** and **Proteus Design Suite**.
 | **Voltage Gain** | > 40dB | ~40dB |
 | **THD** | < 5% | < 5% (Clear Audio) |
 
-*(Note: Waveform images located in /assets folder)*
+---
+
+### Waveform Analysis
+![Simulation Results](assets/waveform_output.png)
+*Figure 1: Input signal vs. Amplified Output showing >40dB gain.*
+
+---
 
 ## 💰 Bill of Materials (BOM) & Cost Analysis
 
@@ -75,6 +91,7 @@ The prototype was constructed for accessibility and low cost.
 6.  **View Results:** Click on the **Microphone Input** node and the **Headphone Output** node to compare the amplification.
 
 ---
+
 
 ## 👥 Contributors
 * **Kavya G**
