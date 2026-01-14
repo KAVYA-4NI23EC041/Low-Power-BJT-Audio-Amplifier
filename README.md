@@ -69,15 +69,26 @@ The circuit was simulated using **LTspice** and **Proteus Design Suite**.
 
 The prototype was constructed for accessibility and low cost.
 
-| Component | Specification | Quantity | Approx Cost (INR) |
-| :--- | :--- | :--- | :--- |
-| **Transistors** | BC547 (x3), BC337 (x1) | 4 | ₹40 |
-| **Microphone** | Electret Condenser | 1 | ₹20 |
-| **Resistors** | Various (10kΩ - 1MΩ) | 9 | ₹9 |
-| **Capacitors** | 0.1µF - 470µF | 7 | ₹35 |
-| **Battery** | 1.5V AA | 1 | ₹10 |
-| **Misc** | Switch, Jack, PCB | - | ~₹28 |
-| **Total** | | | **₹142** |
+| Component | Value/Part Number | Quantity | Description | Approx Cost (INR) |
+| :--- | :--- | :--- | :--- | :--- |
+| **Transistor** | BC547 | 3 | NPN General Purpose (Q1, Q2, Q3) | 30 |
+| **Transistor** | BC337 | 1 | NPN Power Driver (Q4) | 10 |
+| **Resistor** | 10kΩ | 2 | 1/4W Carbon Film | 2 |
+| **Resistor** | 1MΩ | 1 | 1/4W Carbon Film | 1 |
+| **Resistor** | 5.7kΩ | 1 | 1/4W Carbon Film | 1 |
+| **Resistor** | 100kΩ | 1 | 1/4W Carbon Film | 1 |
+| **Resistor** | 3.9kΩ | 1 | 1/4W Carbon Film | 1 |
+| **Resistor** | 1.5kΩ | 1 | 1/4W Carbon Film | 1 |
+| **Resistor** | 1kΩ | 2 | 1/4W Carbon Film | 2 |
+| **Resistor** | 32Ω | 1 | Load Resistor (Headphone Impedance) | - |
+| **Capacitor** | 0.1µF | 2 | Ceramic Disc | 10 |
+| **Capacitor** | 1µF | 1 | Electrolytic | 5 |
+| **Capacitor** | 10µF | 1 | Electrolytic | 5 |
+| **Capacitor** | 470µF | 2 | Electrolytic | 10 |
+| **Capacitor** | 470pF | 1 | Ceramic Disc | 5 |
+| **Source** | 1.5V | 1 | AA Battery | 10 |
+| **Input** | Mic | 1 | Electret Microphone | 20 |
+| **TOTAL** | | | | **~ ₹114** |
 
 ---
 ## 🚀 How to Run the Simulation
