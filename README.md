@@ -2,7 +2,6 @@
 
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Power](https://img.shields.io/badge/Power-1.5V_DC-blue)
 ![Simulation](https://img.shields.io/badge/Tools-LTspice-orange)
 
 ## 📌 Abstract
