@@ -87,7 +87,7 @@ The prototype was constructed for accessibility and low cost.
 | **Capacitor** | 470pF | 1 | Ceramic Disc | 5 |
 | **Source** | 1.5V | 1 | AA Battery | 10 |
 | **Input** | Mic | 1 | Electret Microphone | 20 |
-| **TOTAL** | | | | **~ ₹114** |
+| **TOTAL** | | | | **₹114** |
 
 ---
 ## 🚀 How to Run the Simulation
