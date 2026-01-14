@@ -17,7 +17,7 @@ $$Gain (dB) = 20 \log(225) \approx \mathbf{47 dB}$$
 * ✅ **Signal Health:** The output waveform shows no clipping at the peaks or troughs, indicating that the transistors are correctly biased in the active region.
 * ✅ **Efficiency:** The circuit achieves a clean 450mV swing using only a 1.5V supply, validating the low-power design.
 
-
+<br><br>
 ### Hardware
 
 The circuit was built and tested on a breadboard to validate the simulation results.
