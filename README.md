@@ -92,7 +92,6 @@ The prototype was constructed for accessibility and low cost.
 
 ---
 
-
 ## 👥 Contributors
 * **Kavya G**
 * Nidhishree
